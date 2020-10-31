@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASKS LIST</title>
+    <link rel="stylesheet" href="../src/taskList.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="label">DANH SÁCH CẦN LÀM</div>
+      <div id="content">
+        <div id="input-box">
+          <div id="input-label"><b>REMEMBER MEEEEEE</b></div>
+          <div id="input-in">
+            <textarea
+              name="input-field"
+              id="input-field"
+              placeholder="hãy nhập nhiệm vụ mà bạn cần làm ^.^ ..."
+              rows="7"
+            ></textarea>
+          </div>
+          <div id="input-addBtn">
+            <button id="input-addNow" type="button">THÊM TASK --></button>
+          </div>
+        </div>
+        <div id="list-box">
+          <div class="list-items">
+            <div class="list-task"> tên task</div>
+            <div class="list-btn">
+              <button class="list-btn-fin" type="button">&#10004;</button>
+              <button class="list-btn-fix" type="button">SỬA</button>
+              <button class="list-btn-del" type="button">X</button>
+            </div>
+          </div>
+          <div class="list-items">
+            <div class="list-task">tên task</div>
+            <div class="list-btn">
+              <button class="list-btn-fin" type="button">&#10004;</button>
+              <button class="list-btn-fix" type="button">SỬA</button>
+              <button class="list-btn-del" type="button">X</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../build/bundle.js"></script>
+</html>
