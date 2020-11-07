@@ -106,7 +106,23 @@ const morseToDots = {
   " ": "",
 };
 
+
 let bt5Btn = document.getElementById("bt5-btn");
 bt5Btn.addEventListener("click", () => {
   bt5Result();
 });
+
+function bt5Result() {
+  let bt5Input = document.getElementById("bt5-input").value;
+  let bt5Arr = bt5Input.split(" ");
+  console.log( bt5Arr)
+  let bt5Length = parseInt(bt5Arr[0]);
+  let bt5Rows = parseInt(bt5Arr[1]);
+  let bt5Smbl = bt5Arr[2];
+  console.log (bt5Length, bt5Rows, bt5Smbl)
+  let arr = [];
+  for (let i=1; i = bt5Length; i++) {
+    arr.push ("a") // bị lỗi khúc này @@ tức 
+  }
+console.log (arr) 
+}
