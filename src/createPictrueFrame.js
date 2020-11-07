@@ -32,15 +32,15 @@ function rowTopBot (length) {
     return lengthBotTopStr;
 }
  
-function rowMiddle (length) {
-    let lengthMiddle = [];
-    for (len = 2; len = length -1; len ++) {
-        lengthMiddle.push (" ")
-    }
-    lengthMiddle.unshift(symbl);
-    lengthMiddle.push(symbl)
-    return lengthMiddle;
-}
+// function rowMiddle (length) {
+//     let lengthMiddle = [];
+//     for (len = 2; len = length -1; len ++) {
+//         lengthMiddle.push (" ")
+//     }
+//     lengthMiddle.unshift(symbl);
+//     lengthMiddle.push(symbl)
+//     return lengthMiddle;
+// }
 
 
 let bt5Btn = document.getElementById("bt5-btn");
